@@ -1,0 +1,28 @@
+{
+    "airports": [
+        {
+            "name": "Warsaw Chopin Airport",
+            "iata_code": "WAW"
+        },
+        {
+            "name": "Minsk National Airport",
+            "iata_code": "MSQ"
+        },
+        {
+            "name": "Paris Charles de Gaulle Airport",
+            "iata_code": "CDG"
+        },
+        {
+            "name": "Singapore Changi Airport",
+            "iata_code": "SIN"
+        },
+        {
+            "name": "Munich International Airport",
+            "iata_code": "MUC"
+        },
+        {
+            "name": "Dubai International Airport",
+            "iata_code": "DXB"
+        }
+    ]
+}

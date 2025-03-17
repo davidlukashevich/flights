@@ -1,0 +1,47 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    position: relative;
+    background: url('./assets/background-image.png'), url('./assets/background-img1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.app::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(90deg, #77BDFE 0%, #7B5CFA 100%);
+    z-index: -1;
+    inset: 0;
+    min-height: 100vh;
+}
+
+
+@media(max-width: 425px) {
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+

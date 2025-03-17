@@ -1,0 +1,142 @@
+.about {
+    transform: translateY(-30px);
+    border: solid 1px #fff;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.about_title {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+}
+
+.about_text {
+    width: 500px;
+    text-align: center;
+    margin: -10px auto 20px auto;
+}
+
+.about_img {
+    display: block;
+    border-radius: 30px;
+    width: 750px;
+    height: 413px;
+    margin: 0 auto;
+}
+
+.about_information {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_information_title {
+    width: 350px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.about_information_btn {
+    width: 100%;
+    background: linear-gradient(135deg, #6A5ACD, #483D8B);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about_information_btn:hover {
+    background: linear-gradient(135deg, #7B68EE, #5A4FCF);
+    transform: scale(1.05);
+}
+
+.about_icon {
+    margin: 30px 10px 0 0;
+}
+
+.about_item {
+    display: flex;
+    justify-content: end;
+}
+
+.about_information_text {
+    width: 300px;
+}
+
+@media (max-width: 912px) {
+    .about {
+        max-width: 90%;
+    }
+
+    .about_img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .about_information {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .about_information_title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_btn {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .about_information_company {
+        margin: 20px 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about_item {
+        justify-content: center;
+    }
+
+    .about_information_text {
+        width: 80%;
+    }
+
+    .about_icon {
+        margin: 20px 10px 0 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .about_text {
+        max-width: 90%;
+        text-align: center;
+        margin: -10px auto 20px auto;
+    }
+
+    .about_title {
+        font-size: 24px;
+    }
+
+    .about_information_title {
+        font-size: 20px;
+    }
+
+    .about_information_btn {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,191 @@
+.flight {
+    transform: translateY(-30px);
+    color: #f0f0f0;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+}
+
+.loader {
+    margin: 0 30%;
+}
+
+.flight_info {
+    width: 700px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #fff;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    padding: 10px 30px 40px 30px;
+}
+
+.airport {
+    margin: -20px 0 -8px 0;
+}
+
+.arrival_item {
+    text-align: right;
+}
+
+.time {
+    font-size: 30px;
+    font-weight: bold;
+    margin: -10px 0 0 0;
+
+}
+
+.additional_info {
+    margin: 160px 0 0 0;
+    position: absolute;
+    left: 23%;
+}
+
+.line {
+    width: 400px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.flight_time {
+    text-align: center;
+}
+
+.airline_info {
+    display: flex;
+    gap: 20px;
+}
+
+.flight_detail_info {
+    width: 500px;
+    border: solid 1px #fff;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    padding: 10px 30px;
+    margin: 20px 0 0 0;
+}
+
+.city_name {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.detail_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.city_detail_info div {
+    display: flex;
+    margin: -25px 0 0 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.info {
+    padding: 0 0 0 10px;
+}
+
+.flight_map {
+    margin: 20px 0 0 0;
+    width: 700px;
+    height: 400px;
+}
+
+.flight_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 1280px) {
+    .loader {
+        margin: 0 20%;
+    }
+
+    .flight_title {
+        text-align: center;
+    }
+
+    .flight_info {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .additional_info {
+        width: 55%;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .flight_block {
+        display: block;
+    }
+
+    .flight_detail_info {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .flight_map {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 912px) {
+    .flight_info {
+        display: block;
+    }
+
+    .city_info {
+        text-align: center;
+    }
+
+    .arrival_city {
+        margin: 70px 0 0 0;
+        text-align: center;
+    }
+
+    .arrival_item {
+        text-align: center;
+    }
+
+    .additional_info {
+        left: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .line {
+        width: 90%;
+    }
+}
+
+@media(max-width: 540px) {
+    .loader {
+        margin: 0 10%;
+    }
+
+    .detail_info {
+        transform: translateY(-30px);
+        display: block;
+    }
+
+    .time {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 320px) {
+    .loader {
+        margin: 0;
+    }
+}

@@ -1,0 +1,22 @@
+.loader_block {
+    width: 100%;
+    margin: 100px 30%;
+}
+
+@media(max-width: 540px) {
+    .loader_block {
+        margin: 100px 10%;
+    }
+}
+
+@media(max-width: 375px) {
+    .loader_block {
+        margin: 100px 5%;
+    }
+}
+
+@media(max-width: 320px) {
+    .loader_block {
+        margin: 100px 0;
+    }
+}
